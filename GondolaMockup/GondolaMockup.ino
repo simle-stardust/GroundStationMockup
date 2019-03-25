@@ -1,7 +1,7 @@
 typedef struct
 {
   int16_t RTD[30] = {0x0000};
-  int16_t mosfet[12] = 0x0000;
+  int16_t mosfet[12] = {0x0000};
   int16_t flag = 0x0000;
 
 } frame_antares;
