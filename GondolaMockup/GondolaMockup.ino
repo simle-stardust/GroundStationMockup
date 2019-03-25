@@ -15,7 +15,7 @@ void setup() {
 
 // the loop routine runs over and over again forever:
 void loop() {
-  Serial.print("MarcinSetValuesKom:");
+  Serial.print("@MarcinSetValuesKom:");
   for (int i = 0; i < 30; ++i) {
     Memory.RTD[i] = random(0xFFFF);
     Serial.write(Memory.RTD[i] >> 8);
